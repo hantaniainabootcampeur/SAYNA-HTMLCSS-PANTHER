@@ -1,3 +1,7 @@
+@font-face {
+    font-family: panthera;
+    src: url(./assets/police/panthera.otf);
+}
 
 /*design de l'en-tête*/
 .scroll{
