@@ -29,71 +29,34 @@ h2{
     font-size: 32px;
     font-weight: 400; 
 }
+.textenigme{
+    font-family: wakanda forever;
+    font-size: 43px;
+    font-weight: 400;
+}
 .footer{
     font-family: cantarell;
     font-size: 10px;
     font-weight: 400; 
 }
 .container{
-    width: 80%; 
+    width: 80%;
 }
 p{
     font-family: cantarell;
     font-size: 16px;
     font-weight: 400;  
-}
-body{
+}body{
     background-color: #3D2DA6;
     color: #FFFFFF;
 }
 :root{
     --white-color:#FFFFFF;
     --white-color:#F2CEF2;
-    --grey:#9E91B7 ;
+    --gray:#9E91B7 ;
     --purple:#3D2DA6;
     --blue:#07338C;
     --blue:#021740;
-
-}
-  
-
-/*design de l'en-tête*/
-
-.scroll{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    left: 30px;
-    top: 230px;
-    
-}
-.scroll.social{
-    margin-top: 15px;
-}
-.ligne longue{
-    content: "";
-    border-left: 3px solid var(--light-violet);
-    position: fixed;
-    top: 0;
-    width: 1px;
-    height: 60%;
-    left: 60px;
-  }
-  .ligne courte{
-    content: "";
-    border-left: 3px solid var(--light-violet);
-    position: fixed;
-    top: 0;
-    width: 1px;
-    height: 83%;
-    left: 40px;
-  }
-
-header.icon{
-    position: absolute;
-    left: 10px;
-    top:0px;
 
 }
 /*positionnement de la navigation*/
@@ -136,5 +99,4 @@ header.nav{
     top: 50px;
     left: 0;
 }
-
 
