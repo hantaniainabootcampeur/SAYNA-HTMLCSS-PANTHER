@@ -125,16 +125,37 @@ a{
 .icon{
     padding-left: 80px;
 }
-
-
-
-
-
-    
+   
 header.nav{
     position: absolute;
     top: 50px;
     left: 0;
 }
+/*mise en forme des titres et texte*/
+#texte{
+margin-left: 150px;
+
+}
+.titre{
+    font-family: panthera;
+    font-size: 68px;
+    font-weight: 400;
+    color:#9E91B7 ;
+}
+.titre2{
+    font-family: beyno;
+    font-size: 32px;
+    font-weight: 400; 
+    color:#9E91B7 ;
+    margin-bottom: 20px;
+        }
+p{
+    font-family: cantarell;
+    font-size: 16px;
+    font-weight: 400; 
+    margin-bottom: 200px;
+        }
+
+
 
 
