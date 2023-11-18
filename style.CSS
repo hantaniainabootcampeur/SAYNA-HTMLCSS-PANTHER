@@ -272,7 +272,7 @@ p{
             #biographie .textebiographie{
                 text-align: justify;
                 margin-left: 150px;
-                          
+             margin-top: -1300px;        
             }
             h2{
                 margin-top: 15px;
@@ -281,6 +281,10 @@ p{
             p{
                 margin-top: 15px;
                 margin-bottom: 15px;
+            }
+            /*le formulaire*/
+            #le formulaire{
+                
             }
            
             
