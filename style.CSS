@@ -201,10 +201,41 @@ p{
                 margin-left: 30px
             }
         .back_footer{
-            width: 20px;
+           height: 2%;
             margin-top: -200px;
             }
+            #BlackPanther-personnage{
+                display: flex;
+             
+            }
+            .BlackPanther-info{
+                margin-top: -250px;
+            }
+            .BlackPanther-info2{
+                margin-bottom: 50px;
+                margin-top: -400px;
+                width: 100%;
+            }
+            h2{
+                color:#9E91B7;
+            }
+            /* la biographie */
+            #biographie .textebiographie{
+                text-align: justify;
+                margin-left: 150px;
+                          
+            }
+            h2{
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+            p{
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+           
             
+
 
 
         
