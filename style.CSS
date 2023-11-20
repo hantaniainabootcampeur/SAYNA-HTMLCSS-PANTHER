@@ -283,9 +283,57 @@ p{
                 margin-bottom: 15px;
             }
             /*le formulaire*/
-            #le formulaire{
+            #leformulaire{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 800px;
+                height: 500px;
+                border: 2px solid #FFFFFF ;
+                border-top-right-radius: 80px;
+                border-bottom-left-radius: 80px;
+                border-bottom-right-radius: 80px;
+                border-top-left-radius: 80px;
+                background-color: #FFFFFF;
+                margin-left: 50%;
+                margin-top: 10%;  
+              
+            }
+            #leformulaire .position{
+                text-align: center;
+                margin: 5%;
+            }
+            .title1{
+                color: #021740;
+            }
+            .title2{
+                color: #021740;
+                font-size: 200%;
+                letter-spacing: 4px;
+            }
+            .rubriques{
+                margin: 5%;
+                margin-top: 3%;
                 
             }
+            .item1{
+                margin: 3%;
+            
+            }
+            .item2{
+                margin: 3%;
+            }
+            .item3{
+                margin: 3%;
+            }
+            .item4{
+                margin: 3%;
+            }
+            
+           
+               
+            
+            
            
             
 
