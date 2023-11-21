@@ -100,3 +100,46 @@ header.nav{
     left: 0;
 }
 
+h1{
+    margin-top: -20%;
+    margin-left: 60%;
+    margin-bottom: 5%;
+}
+#ledefi .info{
+    margin-left: 70%;
+    margin-top: 0%;
+}
+#ledefi .enigme2{
+    margin-left: 50%;
+    margin-top: -45%;
+    
+    
+}
+#ledefi .enigme1{
+    margin-left:  5% ;
+    margin-top: -75%;
+    
+}
+#conteneur .textenigme{
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.transcription{
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+.alpha{
+    margin-left: 10%;
+}
+.copieenigme2{
+margin-left: 50%;
+}
+.devinette{
+margin-left: 75%;
+margin-bottom: 3%;
+margin-top: -25%;
+}
+.devinette2{
+margin-left: 60%;
+text-align: center;
+}
