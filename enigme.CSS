@@ -105,6 +105,7 @@ h1{
     margin-left: 60%;
     margin-bottom: 5%;
 }
+/*les énigmes*/
 #ledefi .info{
     margin-left: 70%;
     margin-top: 0%;
@@ -142,4 +143,34 @@ margin-top: -25%;
 .devinette2{
 margin-left: 60%;
 text-align: center;
+}
+/*la réponse*/
+#laquestion{
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 40%;
+                height: 10%;                                   
+       
+}
+#laquestion .position{
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+#laquestion .lareponse{
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border: 2px solid;
+}
+.lareponse{
+    margin-top: 3%;
+    margin-bottom: 13%;
+}
+.envoyer{
+    margin-left: 45%;
 }
