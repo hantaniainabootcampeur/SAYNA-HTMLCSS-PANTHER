@@ -174,3 +174,45 @@ text-align: center;
 .envoyer{
     margin-left: 45%;
 }
+/* le footer */
+            
+           
+#footer{
+    display: flex;
+    margin-top: 10%; 
+    background: #021740; 
+   
+  
+   }
+   #footer .icon2{
+    margin-top: 15%;
+    margin-left: 25%;
+   }
+   #footer .icon3{
+    margin-top: 2%;
+    margin-left: -17%;
+   }
+   #footer p{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: 2%;
+   }
+   .pages{
+    margin-left: 5%;
+    margin-right: 20%;
+   }
+   .apropos{
+    margin-top: 50%;
+   }
+   .social-footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7%;
+    margin-left: -15%;
+   }
+   h4{
+    margin-top: 25%;
+    margin-left: -45%;
+
+    
+   }
