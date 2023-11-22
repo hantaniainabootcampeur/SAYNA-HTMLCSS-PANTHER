@@ -68,21 +68,22 @@ body{
     top: 230px;
     
 }
-.scroll.social{
+.scroll.social:hover{
     margin-top: 15px;
+    color: #FFFFFF;
 }
-.ligne longue{
+.lignelongue{
     content: "";
-    border-left: 3px solid var(--light-violet);
+    border-left: 5% solid var(--light-violet);
     position: fixed;
     top: 0;
     width: 1px;
     height: 60%;
     left: 60px;
   }
-  .ligne courte{
+  .lignecourte{
     content: "";
-    border-left: 3px solid var(--light-violet);
+    border-left: 10% solid var(--light-violet);
     position: fixed;
     top: 0;
     width: 1px;
@@ -92,26 +93,31 @@ body{
 
 header.icon{
     position: absolute;
-    left: 10px;
+    left: 10%;
     top:0px;
-
+    right: 20%;
+    
 }
 /*positionnement de la navigation*/
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 30px;
-    padding-bottom: 500px;
+    padding-top: 5%;
+    padding-bottom: 20%;
+    
 }
 nav ul li {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: inline;
-    margin-left: 100px;
+    
     text-decoration: underline;
     
+}
+.menu{
+    margin-left: 20%;
 }
 a{
     color: white;  
@@ -122,13 +128,14 @@ a{
     margin-left: 50px;
 
 }
-.icon{
-    padding-left: 80px;
+.icon:hover{
+    padding-left: 10%;
+    color: #3D2DA6;
 }
    
 header.nav{
     position: absolute;
-    top: 50px;
+    top: 5%;
     left: 0;
 }
 /*mise en forme des titres et texte*/
@@ -158,7 +165,7 @@ p{
     margin-bottom: 20px;
     text-align: left;
         }
- .btn{
+ .voir{
             text-decoration: underline;
             color: #FFFFFF;
             font-size: 15px;
@@ -356,8 +363,9 @@ p{
                 margin-left: 5%;
                 margin-right: 20%;
                }
-               .apropos{
+               .btn:hover{
                 margin-top: 50%;
+                color: #FFFFFF;
                }
                .social-footer{
                 display: flex;
