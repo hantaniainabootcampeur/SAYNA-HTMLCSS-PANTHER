@@ -43,7 +43,7 @@ p{
     font-weight: 400;  
 }
 body{
-    background-color: #3D2DA6;
+    background: radial-gradient(126.67% 350.28% at -21.35% 0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%, rgba(2, 23, 64, 0) 100%) ;
     color: #FFFFFF;
 }
 :root{
@@ -72,7 +72,7 @@ body{
     margin-top: 15px;
     color: #FFFFFF;
 }
-.lignelongue{
+.long-bar{
     content: "";
     border-left: 5% solid var(--light-violet);
     position: fixed;
@@ -81,7 +81,7 @@ body{
     height: 60%;
     left: 60px;
   }
-  .lignecourte{
+  .short-bar{
     content: "";
     border-left: 10% solid var(--light-violet);
     position: fixed;
@@ -290,6 +290,9 @@ p{
                 margin-bottom: 15px;
             }
             /*le formulaire*/
+            .background{
+                background-image: url("./assets/Illustrations\ +\ Logo/Accueil/Pantherhome7.png");
+            }
             #leformulaire{
                 display: flex;
                 flex-direction: column;
@@ -303,7 +306,8 @@ p{
                 border-top-left-radius: 80px;
                 background-color: #FFFFFF;
                 margin-left: 25%;
-                margin-top: 10%;  
+                margin-top: -50%; 
+                
               
             }
             #leformulaire .position{
