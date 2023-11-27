@@ -23,16 +23,19 @@ h1{
     font-family: panthera;
     font-size: 68px;
     font-weight: 400;
+    color: #FFFFFF;
 }
 h2{
     font-family: beyno;
     font-size: 32px;
     font-weight: 400; 
+    color: #FFFFFF
 }
 .footer{
     font-family: cantarell;
     font-size: 10px;
     font-weight: 400; 
+    color: #FFFFFF
 }
 .container{
     width: 80%; 
@@ -41,10 +44,11 @@ p{
     font-family: cantarell;
     font-size: 16px;
     font-weight: 400;  
+    color: #FFFFFF
 }
 body{
-    background: radial-gradient(126.67% 350.28% at -21.35% 0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%, rgba(2, 23, 64, 0) 100%) ;
-    color: #FFFFFF;
+    
+    background-color:#021740 ;
 }
 :root{
     --white-color:#FFFFFF;
@@ -64,32 +68,15 @@ body{
     flex-direction: column;
     align-items: center;
     position: fixed;
-    left: 30px;
-    top: 230px;
+    left: 5%;
+    top: 30%;
     
 }
 .scroll.social:hover{
     margin-top: 15px;
     color: #FFFFFF;
 }
-.long-bar{
-    content: "";
-    border-left: 5% solid var(--light-violet);
-    position: fixed;
-    top: 0;
-    width: 1px;
-    height: 60%;
-    left: 60px;
-  }
-  .short-bar{
-    content: "";
-    border-left: 10% solid var(--light-violet);
-    position: fixed;
-    top: 0;
-    width: 1px;
-    height: 83%;
-    left: 40px;
-  }
+
 
 header.icon{
     position: absolute;
@@ -129,7 +116,7 @@ a{
 
 }
 .icon:hover{
-    padding-left: 10%;
+    padding-left: 20%;
     color: #3D2DA6;
 }
    
@@ -249,31 +236,34 @@ p{
                 color: black;
                 text-align: center;
                 font-size: 20px;
+                margin-bottom: 5%;
             }
             .bouton{
-                margin-left: 30px;
+                margin-left: 23%;
             }
             .btn{
-                 padding: 10px;
-                 display: flex;
+                 padding: 1%;
                  justify-content: space-around;
                  text-decoration-style: none;
-                 border: 10px solid;
+                 display: inline;
                  background-color: #3D2DA6;
                  font-style: var(--white-color);
-                 border-top-right-radius: 20px;
-                border-bottom-left-radius: 20px;
-                border-bottom-right-radius: 20px;
-                border-top-left-radius: 20px;
+                 border-top-right-radius: 3%;
+                border-bottom-left-radius: 3%;
+                border-bottom-right-radius: 3%;
+                border-top-left-radius: 3%;
             }
             
            
             .info{
+                margin-top: 2%;
                 color: #021740;
-                margin-left: 30px;
+                text-align: left;
+                margin-left: 23%;
             }
             .Panthernomask{
                 margin-bottom: -100px;
+                margin-left: 80%;
             }
 
             #biographie .textebiographie{
@@ -288,6 +278,7 @@ p{
             p{
                 margin-top: 15px;
                 margin-bottom: 15px;
+                color: #FFFFFF
             }
             /*le formulaire*/
             .background{
@@ -347,7 +338,7 @@ p{
                 display: flex;
                 margin-top: 10%; 
                 background: #021740; 
-               
+            
               
                }
                #footer .icon2{
@@ -380,6 +371,7 @@ p{
                h4{
                 margin-top: 25%;
                 margin-left: -45%;
+                color: #FFFFFF;
             
                 
                }
